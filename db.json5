@@ -1,0 +1,94 @@
+{
+  products: [
+    {
+      id: 1,
+      SKU: 'ABC123',
+      name: 'Electronic Watch',
+      price: 299.99,
+      type: 'NORMAL',
+      image: 'image1.jpg' // Assumed image file name
+    },
+    {
+      id: 2,
+      SKU: 'DEF456',
+      name: 'Sports Shoes',
+      price: 499.6,
+      type: 'NORMAL',
+      image: 'image2.jpg'
+    },
+    {
+      id: 3,
+      SKU: 'GHI789',
+      name: 'Book "Exploring the Universe"',
+      price: 89.0,
+      type: 'NORMAL',
+      image: 'image3.jpg'
+    },
+    {
+      id: 4,
+      SKU: 'JKL012',
+      name: 'Bluetooth Headphones',
+      price: 199.0,
+      type: 'HIGH_DEMAND',
+      image: 'image4.jpg'
+    },
+    {
+      id: 5,
+      SKU: 'MNO345',
+      name: 'Smart Band',
+      price: 149.45,
+      type: 'HIGH_DEMAND',
+      image: 'image5.jpg'
+    }
+  ],
+  inventories: [
+    {
+      id: 1,
+      SKU: 'ABC123',
+      zone: 'CN_NORTH',
+      quantity: 120 // The quantity of this product in the CN_NORTH warehouse
+    },
+    {
+      id: 2,
+      SKU: 'ABC123',
+      zone: 'US_WEST',
+      quantity: 80 // The quantity of this product in the US_WEST warehouse
+    },
+    {
+      id: 3,
+      SKU: 'DEF456',
+      zone: 'EU_CENTRAL',
+      quantity: 200 // The quantity of this product in the EU_CENTRAL warehouse
+    },
+    {
+      id: 4,
+      SKU: 'GHI789',
+      zone: 'CN_EAST',
+      quantity: 150 // The quantity of this product in the CN_EAST warehouse
+    },
+    {
+      id: 5,
+      SKU: 'JKL012',
+      zone: 'CN_SOUTH',
+      quantity: 100 // The quantity of this product in the CN_SOUTH warehouse
+    },
+    {
+      id: 6,
+      SKU: 'JKL012',
+      zone: 'US_EAST',
+      quantity: 13 // The quantity of this product in the US_EAST warehouse
+    },
+    {
+      id: 7,
+      SKU: 'MNO345',
+      zone: 'CN_NORTH',
+      quantity: 95 // The quantity of this product in the CN_NORTH warehouse
+    },
+    {
+      id: 8,
+      SKU: 'MNO345',
+      zone: 'AU_SOUTH',
+      quantity: 110 // The quantity of this product in the AU_SOUTH warehouse
+    }
+  ]
+}

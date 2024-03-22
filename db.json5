@@ -70,7 +70,7 @@
       id: 5,
       SKU: 'JKL012',
       zone: 'CN_SOUTH',
-      quantity: 100 // The quantity of this product in the CN_SOUTH warehouse
+      quantity: 10 // The quantity of this product in the CN_SOUTH warehouse
     },
     {
       id: 6,
@@ -82,13 +82,13 @@
       id: 7,
       SKU: 'MNO345',
       zone: 'CN_NORTH',
-      quantity: 95 // The quantity of this product in the CN_NORTH warehouse
+      quantity: 65 // The quantity of this product in the CN_NORTH warehouse
     },
     {
       id: 8,
       SKU: 'MNO345',
       zone: 'AU_SOUTH',
-      quantity: 110 // The quantity of this product in the AU_SOUTH warehouse
+      quantity: 12 // The quantity of this product in the AU_SOUTH warehouse
     }
   ]
 }
